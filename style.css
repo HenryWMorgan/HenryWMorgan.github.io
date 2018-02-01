@@ -1,0 +1,178 @@
+.container {
+    position: relative;
+    margin: auto;
+
+}
+
+.heading {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea
+}
+
+.mheader {
+    height: 260px;
+    width: 100%;
+    background-color: dodgerblue;
+     background: linear-gradient(to top left, dodgerblue, white);
+}
+.t2 {
+    box-shadow:
+}
+
+body {
+    font: 14px 'Verdana';
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: cornflowerblue;
+    background-color: none;
+    text-decoration: none;
+}
+
+ul.menu > li > a:hover {
+    background-color: none;
+    color: black;
+    text-decoration: underline;
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: none;
+}
+
+ul.submenu > li {
+    display: block;
+}
+
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: cornflowerblue;
+}
+
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+.col:hover {
+    color: lawngreen;
+    background-color: black;
+
+}
+
+
+.par {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 15px
+}
+
+.podr {
+    color: #484343;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px text-align left;
+
+}
+
+.gp {
+    color: darkblue;
+    font-size: 15px;
+    font-style: bolt;
+    font-weight: 400;
+    line-height: 15px
+}
+
+
+.s {
+    text-decoration: line-through;
+}
+
+.img {
+    outline: none;
+    float: left;
+    margin-right: 4px;
+}
+
+.img:hover {
+    outline: solid 2px yellow;
+}
+
+.pg {
+    font-size: 44px;
+    color: red;
+}
+
+td {
+    border: solid 1px black;
+}
+
+table {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+.rig {
+    position: absolute;
+    margin-left: 80%;
+}
+
+.buy {
+    height: 50px;
+    width: 60px;
+    border: solid 2px;
+    border-color: coral;
+    background-color: coral;
+    margin-left: 50%;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 20px
+}
+
+
+.buy:hover {
+    outline: solid 10px green;
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    background-color: skyblue;
+}
