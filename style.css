@@ -17,9 +17,6 @@
     background-color: dodgerblue;
      background: linear-gradient(to top left, dodgerblue, white);
 }
-.t2 {
-    box-shadow:
-}
 
 body {
     font: 14px 'Verdana';
@@ -50,12 +47,10 @@ ul.menu > li > a {
     display: block;
     padding: 10px;
     color: cornflowerblue;
-    background-color: none;
     text-decoration: none;
 }
 
 ul.menu > li > a:hover {
-    background-color: none;
     color: black;
     text-decoration: underline;
 }
@@ -66,7 +61,6 @@ ul.submenu {
     width: 120px;
     top: 37px;
     left: 0;
-    background-color: none;
 }
 
 ul.submenu > li {
